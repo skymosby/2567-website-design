@@ -29,7 +29,7 @@
 	<div id="hero">
 		<div class="wrapper">
 			<h1>Campus Commerce Provider</h1>
-			<p>We offer solutions to process every payment on campus. We are PCI Level 1 Validated and integrate with every major ERP.</p>
+			<p>We offer solutions to process every payment on campus. We are PCI Level 1 Validated and integrate with every major ER.</p>
 			<a href="#bg-blue">Contact Us</a> <a href="#bg-green">About Us</a> </div>
 	</div>
 </header>
@@ -42,7 +42,7 @@
 			<header>
 				<h3>eBill & ePay</h3>
 			</header>
-			<p>Save money, increase cash flow, and improve service to students by presenting bills electronically and allowing online payments in a PCI Level 1 compliant environment.</p>
+			<p>Save money, increase cash flow, and improve service to students by presenting bills electronically and allowing online payments in a PCI Level 1 compliant environment.</p>
 		</div>
 		<div class="col-1-4">
 			<header>
@@ -168,22 +168,25 @@
 		<h3>Contact Form</h3>
 	</header>
 	<form>
-		<legend>Contact Form</legend>
+		<fieldset>
+			<legend>Contact Form</legend>
+			<label>Name
+				<input type="text" name="name" placeholder="Jane Eyre">
+			</label>
+			<label>Email Address
+				<input type="email" name="email-address" placeholder="jeyre@email.com">
+			</label>
+			<button>Contact us</button>
+		</fieldset>
 	</form>
-	<label>Name
-		<input type="text" name="name" placeholder="Jane Eyre">
-	</label>
-	<label>Email Address
-		<input type="email" name="email-address" placeholder="jeyre@email.com">
-	</label>
-	<button>Contact us</button>
+		
 	<header>
 		<h3>Social Media</h3>
 	</header>
 	<ul>
-		<li><a href="http://www.facebook.com" target="_blank"><img src="img/fb.png" width="35"></a></li>
-		<li><a href="http://www.linkedin.com" target="_blank"><img src="img/in.png" width="35"></a></li>
-		<li><a href="http://www.twitter.com" target="_blank"><img src="img/twitter.png" width="35"></a></li>
+		<li><a href="http://www.facebook.com" target="_blank"><img src="img/fb.png" alt="facebook icon" width="35"></a></li>
+		<li><a href="http://www.linkedin.com" target="_blank"><img src="img/in.png" alt="linked-in icon" width="35"></a></li>
+		<li><a href="http://www.twitter.com" target="_blank"><img src="img/twitter.png" alt="twitter icon" width="35"></a></li>
 	</ul>
 </section>
 <section id="upcoming">
@@ -214,7 +217,7 @@
 </section>
 <footer>
 	<div class="wrapper row">
-		<figure class=> <img src="img/logo.png" alt="logo"> </figure>
+		<figure> <img src="img/logo.png" alt="logo"> </figure>
 		<nav>
 			<ul>
 				<li><a href="#">Home</a></li>
